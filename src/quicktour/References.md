@@ -17,7 +17,13 @@
 - Unicode charaters are 16 bits. so it can express more characters
 
 
+## Members
+- class has three kinds of members
+Fields, Methods, Classes and interfaces
 
+
+## new keyword
+- Create Object by instantiation
 
 
 
