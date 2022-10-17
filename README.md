@@ -6,3 +6,5 @@
 
 ## Chp3. Extending Classes
 
+
+* last_viewed_page : p.9
