@@ -6,12 +6,14 @@ class Fibonacci {
 		int lo = 1;
 		int hi = 1;
 
+		int cnt = 1;
 		System.out.println(lo);
 		while (hi < 50) {
-			System.out.println(hi);
+			System.out.println(cnt +"seq : "+ hi);
 			hi = lo + hi;	// new hi
 			lo = hi - lo;	/* new lo is (sum - old lo)
 							   i.e., the old hi */
+			cnt++;
 		}
 	}
 }
