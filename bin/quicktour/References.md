@@ -19,7 +19,7 @@
 
 ## Members
 - class has three kinds of members
-Fields, Methods, Classes and interfaces
+Fields, Methods, Classes and interfaces(others)
 
 
 ## new keyword
