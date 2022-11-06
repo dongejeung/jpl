@@ -24,6 +24,9 @@ Fields, Methods, Classes and interfaces(others)
 
 ## new keyword
 - Create Object by instantiation
+- Objects aloocated in heap
+- Objects have own object references
+
 
 
 
