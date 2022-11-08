@@ -8,3 +8,11 @@
 
 
 * last_viewed_page : p.9
+
+### Etc
+- {} : it's name curyly brace
+- signature : name of the method and
+the number and types of its parameters.
+- parentheses : 괄호 () 이 괄호인 듯.
+- bracket : [] 이 괄호인 것 같다.
+
