@@ -1,6 +1,6 @@
 package quicktour;
 
-public class Excer1_8 {
+public class Exer1_8 {
 	public static void main(String args[]) {
 		int lo = 1;
 		int hi = 1;
