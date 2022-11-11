@@ -55,6 +55,10 @@ and non-static methods perform object-related tasks
 
 
 ## Arrays
-- array is a cllection of variables all of the same type
+- array is a collection of variables all of the same type
+- use new keyword when initialized
+- length fixed when it created and never change
+- IndexOutOfBoundsException can occur
+
 
 
