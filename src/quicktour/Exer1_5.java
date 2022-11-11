@@ -1,6 +1,6 @@
 package quicktour;
 
-class Exer1_11 {
+class Exer1_5 {
 	/** Print out the Fibonacci sequence for values < 50 */
 	public static void main(String args[]) {
 		int lo = 1;

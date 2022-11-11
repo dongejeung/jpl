@@ -74,6 +74,17 @@ and non-static methods perform object-related tasks
 >> comparison of object's references
 
 
+## Extending a Class
+- superclass, subclass, override
+- new extended class inherits all the fields and methods of the superclass
 
 
+
+
+## Keywords(don't know)
+- instanceof
+- native
+- synchronized
+- transient
+- volatile
 
