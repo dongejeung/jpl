@@ -61,4 +61,19 @@ and non-static methods perform object-related tasks
 - IndexOutOfBoundsException can occur
 
 
+## String Objects
+- String is sequences of character
+- remain that String is Array of char
+- String objects are read-only, or immutable
+> the contents of a String never change
+>> when use operator, make a new value
+
+- StringBuffer class provides for mutabvle strings
+- str.equals : compare two String
+> String is not primitive type. so compare with '=' operator means,
+>> comparison of object's references
+
+
+
+
 
