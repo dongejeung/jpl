@@ -111,6 +111,25 @@ oref = "Some String";
 ## Interfaces
 - only declarations of its methods
 - use with implement keyword
+- don't need to use override anotation when implement method
+- Interfaces can be extended using the extends keyword
+
+
+## Exception
+- Exceptions can be caught by code farther back on the calling stack
+- An exception in Java is an object, with type, methods, and data
+- Exception objects are generally derived from the Exception class,
+which provides a string field to describe the error
+- Java requires all exceptions to be subclsses of the class Throwable,
+which is the superclass of Exception
+
+- The paradigm for using exceptions in Java is the try-catch-finally sequence
+- Declaring the exceptions that a method throws only those exceptions 
+it declared and no others
+- Exceptions that are extensions of RuntimeException and Error need not be declared  and are not checked;
+they are called unchecked exceptions
+
+
 
 
 
