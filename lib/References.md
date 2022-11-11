@@ -77,6 +77,40 @@ and non-static methods perform object-related tasks
 ## Extending a Class
 - superclass, subclass, override
 - new extended class inherits all the fields and methods of the superclass
+- because of having all components of superclass's one,
+inherited class do super's do
+- polymorphism(다형성) : single object can have many(poly-) forms(-morph) with extend
+- override can be used
+
+- to invoke inherited or super's method both possible(maybe?)
+- When you invoke super.method(),
+the object runtime system looks back up the inheriance hierarchy
+to the first superclass that contains the required method()
+(호출하는 메서드가 상위 클래스에 없을 경우 상속 계통도를 한 계단 더 올라가서 탐색함.)
+
+- It's important not the define type but the instanced type is real object's type
+ex) Point point = new Pixel();
+In that case variable point's actual type is Pixel.
+So if you want to invoke super.method(),
+you can use point.super().method()
+from ancestor class accumulate it's own properties.
+
+
+- Object Class :
+-- all objects are polymorphically of class Object
+so Object is the generic type for references that can refer to objects of any class.
+(maybe wrapper type also is extended from Object type)
+cf) generic : 포괄적인. 이라는 영어 뜻임.
+ex) Object oref = new Pixel()
+oref = "Some String";
+- object class also defines several important methods
+
+예제 1.12 는 귀찮아서 생략.
+
+
+## Interfaces
+- only declarations of its methods
+- use with implement keyword
 
 
 
