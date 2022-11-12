@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 public class HelloWorld {
 	int ABCD = 1;

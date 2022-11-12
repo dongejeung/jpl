@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 // StringsDemo 
 class Exer1_10 {

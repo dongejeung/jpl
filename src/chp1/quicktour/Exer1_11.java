@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 class Exer1_11 {
 	/** Print out the Fibonacci sequence for values < 26 */

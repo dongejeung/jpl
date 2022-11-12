@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 public interface Exer1_13 extends Lookup {
 	void add(String name);

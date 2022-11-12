@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 public class Exer1_7 {
 	/** Backward Loop example */

@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 import java.math.BigInteger;
 

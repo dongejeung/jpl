@@ -1,4 +1,4 @@
-package quicktour;
+package chp1.quicktour;
 
 public class Exer1_8 {
 	public static void main(String args[]) {
