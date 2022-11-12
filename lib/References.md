@@ -129,7 +129,9 @@ it declared and no others
 - Exceptions that are extensions of RuntimeException and Error need not be declared  and are not checked;
 they are called unchecked exceptions
 
-
+- RuntimeException and Error need not be declared and are not checked;
+they are called unchecked exceptions
+- Throws clause means programmer expect to occur this type of exception
 
 
 
