@@ -7,7 +7,7 @@
 ## Chp3. Extending Classes
 
 
-* last_viewed_page : p.24
+* last_viewed_page : p.29
 
 ### Etc
 - {} : it's name curyly brace

@@ -134,6 +134,24 @@ they are called unchecked exceptions
 - Throws clause means programmer expect to occur this type of exception
 
 
+## Packages
+- name conflict can be solved only convention
+- The standard convention is to use the reversed Internet domain name
+of the organization to prefix the package name
+
+
+## The Java Platform
+- jvm, java bytecode. everywhere at once.
+- Java hs security manager. it forbid app to read or write the local disk,
+or could allow network connections only to particular machines
+- restriction of accessing to memory
+- Java code independece to JVM(like security factors)
+
+
+## Other Topics Briefly Noted
+- Threads, I/O, Type classes, Utility interfaces and classes(BitSet, Vector, stack, and Date).
+- these further contents will be handled by next chps.
+
 
 
 ## Keywords(don't know)
