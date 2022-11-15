@@ -91,10 +91,95 @@ original object 의 reference(주소값) 이 넘어가기 때문에, 값 변경�
 재귀적으로 호출되어도 디버깅 시에 누산되는 this.size 는 처음 object 의 reference 로 유지가 된다는 것을 확인했다. 이 점을 잘 생각해보면 좋을 것 같다.
 
 
+## this
+- this refers to the current object on which the method was invoked.
+- commonly used as a way to pass a reference to the current object as a parameter to other methods.
+- An implicit this is added to the beginning of any field or method reference inside a method if it is not provided by the programmer.
+
+
+## Overloading Methods
+- signature, number and types of its parameters.
+- overloading : two methods have the same name but have different signature.
+
+
+## Static Members
+- class members: fields, methods, and types.
+- A static member is a member that is only one per class.
+- (static) initializer (block) :
+1. 해당 클래스의 객체를 생성할 때.
+2. 해당 클래스의 static 멤버에 최초로 접근할 때 한 번 실행이 된다. 이 경우는 해당 클래스의 객체를 생성하지 않았을지라도 해당 클래스의 멤버에 최초 접근시 정적 초기자가 실행이 된다.
+3. 정적 초기자는 생성자 이전에 실행이 된다.
+4. 클래스 로딩시에 호출.
+5. 인스턴스 변수나 인스턴스 메소드에 접근 못함.
+(기타 특징은 p.45 부터 참조.)
+
+- A static method might perform a general task for all objects for the class
+- A static method can access only static variables and static methods of the class.
+- Outside a class, a static member is usually accessed by using the class name rather than through an object reference.
+
+
+## Initialization Blocks
+- instance initializer block : 
+1. 객체 생성시 호출
+2. super 생성자 이후에 실행됨.
+3. 생성자보다 먼저 실행됨.
+4. 생성자의 공통 코드를 여다 넣으면 코드 절약됨.
+5. 형태는 { contents } => 의 형태
+
+- static initializer block :
+1. class 로딩시에 한 번만 호출
+2. static 변수와 static 메서드만 접근 가능.
+(아직 instance 되기 전이라 그런 듯.)
+3. 형태는 static { contents } 의 형태
+
+
+## Garbage Collection and finalize
+- You create objects using new, but there is no corresponding delete.
+- creating and collecting large numbers of objects can interfere with time-critical applications.
+You should design systems to be judicious in the number of objects they create to reduce the amount of garbage to be collected.
+- garbage collection is not a guarantee that memory will always be available for new objects.
+- 레퍼를 고려한 디자인을 통하여 garbage collecting 이 이루어지도록 설계해야 함.
+
+
+## finalize = 안쓰고 = null; 등으로 대체하는 게 좋을 듯. 자바 일정 버전에서 java.lang.ref 패키지에 Clenaer 클래스가 추가
+- Finalize method that is executed before an oject's space is reclaimed.
+- Finalize method gives you a chance to use the state contained in the object to reclaim other non-Java resources.
+- ex) open file.
+code example :
+protected void finalize() throws Throwable {
+	try {
+		close();
+	} finally {
+		super.finalize();
+	}
+}
+
+cf) close 두 번 이상 쓸 땐 주의요함.
+
+- super.finalize(); 를 호출하지 않는다면,
+superclass's 의 finalize 는 실행되지 않음.
+항상 붙이는 걸 습관화하는 게 좋겠음.
+
+- Java 에서 finalize 는 실행을 보장하지도 않아서, = null; 로 대체하는 걸 권하는 글을 봄.
+- GC 의 대상이 될 때 호출된다고 하니. 타이밍 알 수 없음.
+
+
+## Resurrcting Objects during finalize
+- omit
+
+
+## Nested Classes and Interfaces
+- Nested classes and interfaces are part of the contract or implementation of their enclosing type, and they have the same accessibility choices as other members.
+- BankAccount.Permissions.
+(Permissions 는 BankAccount 의 nested class 이다.)
+- importing bank.* imports only the top-level classes of the package bank so you can use BankAccount as a short name but not BankAccount.Permissions.
+- An enclosing object is associated with the object as a sort of "outer this" reference.
+ex) lastAct = this.new Action("deposit", amount);
+- A nested class can use other members of its enclosing class including private fields--without qualification because it is part of the enclosing class's implementation.
+- a static nested class can directly access only static members of the enclosing class.
+- Nested interfaces are always static because an enclosing object reference is inherently part of an implementation and interfaces have no implementation.
 
 
 
 
-
-
-
+ 
