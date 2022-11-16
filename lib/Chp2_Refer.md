@@ -178,6 +178,14 @@ ex) lastAct = this.new Action("deposit", amount);
 - A nested class can use other members of its enclosing class including private fields--without qualification because it is part of the enclosing class's implementation.
 - a static nested class can directly access only static members of the enclosing class.
 - Nested interfaces are always static because an enclosing object reference is inherently part of an implementation and interfaces have no implementation.
+(이거 뭔 소린지 잘 모르겠네. 구글링 하니까 nest non static interface 가 있긴한데..)
+=> 중첩 인터페이스들의 경우는 항상 static이다. 왜냐하면 감싸고 있는 object reference 가 선천적으로 구현의 일부이고 인터페이스들은 구현을 가지고 있지 않다.
+뭔 말인지 잘 모르겠는데 일단 넘어가자.. ㅋㅋ
+
+- If class X encloses class Y which encloses class Z, code in Z can explicitly access fields of X by using X.this.
+- Inner classes cannot have static members.
+- Recommend nesting only one level under most circumstances.
+
 
 
 
