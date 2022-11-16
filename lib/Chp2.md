@@ -185,6 +185,41 @@ ex) lastAct = this.new Action("deposit", amount);
 - If class X encloses class Y which encloses class Z, code in Z can explicitly access fields of X by using X.this.
 - Inner classes cannot have static members.
 - Recommend nesting only one level under most circumstances.
+- 되도록이면 nested 위치를 명확하게 해주기 위해 this 등을 사용하는 것이 좋을 듯.
+
+
+## Local Inner Classes
+- Like classes in method's body.
+- Not members of the class.
+=> cannot be private, protected, public, static, or final.
+=> these modifiers apply only to class members.
+cf) In Enumeration. element means container object.
+- p.54 의 예시 코드에서 Inner class Enum은 Enumeration inferface 의 구현이므로,
+return new Enum(); 코드가 사용 가능하다.
+역시 배열 + Position 을 통하여 구현함.
+parameter 로 쓰인 final Object[] objs 의 경우 final이 쓰여서 레퍼런스가 고정되는 듯.
+- 책에는 objs is final, its value cannot change 라고 되어 있음.
+=> 실제 parameter 에 final 의 사용은 코딩을 할 때 살펴보자. 있다는 것 정도만 일단 알고.
+
+
+## main
+- When you run a Java program, the system locates and runs the main method for that class.
+- main method must be public, static, and void. single argument String[].
+- An application can have any number of main methods because each class can have one.
+- each class can have a main that tests its own code.
+cf) main 에 args 전달을 처리하는 것은 공통코드화 할수도 있을 듯 하다.
+
+
+## The toString Method
+- All primitive types are implicitly converted to String objects when used in String expressions, but not at other times.
+- toString 구현시에 어차피 모든 타입은 Object 타입을 상속받기 때문에 명시적으로 @Override 사용 안해도 상속된 것으로 치는 듯.
+
+
+## Native Methods
+- A native method lets you implement a method that can be invoked from Java but is written in a "native" language, usually C or C++.
+- p.57 native methods 제공해주는 곳들 적어놓음. ex) JNI
+
+
 
 
 

@@ -38,7 +38,7 @@
 
 
 
-* last_viewed_page : p.53
+* last_viewed_page : p.57
 
 ### Etc
 - {} : it's name curyly brace
@@ -47,3 +47,7 @@ the number and types of its parameters.
 - parentheses : 괄호 () 이 괄호인 듯.
 - bracket : [] 이 괄호인 것 같다.
 
+* 아 진도좀 빼야겠다. 책이 너무 옛날거긴 하네.. List 나 generic 도 없고..
+ㅋㅋㅋㅋ 1999 년도 6쇄 책이라니.. ㅋㅋㅋㅋ
+핵심은 그대로겠지만..
+2022-11-17 p.57 부터 진도 뺌.
