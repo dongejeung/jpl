@@ -6,7 +6,7 @@ public class Exer2_12 {
 	private double degrees;
 	private String owner;
 	
-	private final double MAX_DEGREES = 360.0;
+//	private final double MAX_DEGREES = 360.0;
 	private final double TURN_LEFT = -90.0; // change direction by adjust degrees
 	private final double TURN_RIGHT = 90.0;
 	

@@ -1,6 +1,6 @@
 package chp2.classNobjects;
 
-public class Body {
+public class Body {	
 	private long idNum;
 	public String name ="<unnamed>";
 	public Body orbits = null;
@@ -8,7 +8,7 @@ public class Body {
 	private static long nextID = 0;
 	
 	Body() {
-		idNum = nextID++;
+		this.idNum = nextID++;
 	}
 	Body(String bodyName, Body orbitsAround) {
 		this();
