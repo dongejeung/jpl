@@ -38,7 +38,7 @@
 
 
 
-* last_viewed_page : p.57
+* last_viewed_page : p.59
 
 ### Etc
 - {} : it's name curyly brace

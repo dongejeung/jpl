@@ -1,3 +1,342 @@
 기존 브라우저 세션에서 여는 중입니다.
 기존 브라우저 세션에서 여는 중입니다.
 기존 브라우저 세션에서 여는 중입니다.
+[3092:3092:1120/143708.537030:ERROR:gl_utils.cc(319)] [.RendererMainThread-0x1be400327800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[3092:3092:1120/143708.538685:ERROR:gl_utils.cc(319)] [.RendererMainThread-0x1be401c8ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[3092:3092:1120/143708.540100:ERROR:gl_utils.cc(319)] [.RendererMainThread-0x1be4016e8700]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[3092:3092:1120/143708.541042:ERROR:gl_utils.cc(319)] [.RendererMainThread-0x1be401c8ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[3021:3021:1120/143709.432134:ERROR:object_proxy.cc(623)] Failed to call method: org.freedesktop.ScreenSaver.GetActive: object_path= /org/freedesktop/ScreenSaver: org.freedesktop.DBus.Error.NotSupported: This method is not implemented
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:09.603: gdk_window_set_user_time called on non-toplevel
+
+[3855:26:1120/143738.790467:ERROR:stun_port.cc(99)] Binding error response: class=4 number=1 reason=Unauthorized
+[3855:26:1120/143748.932618:ERROR:stun_port.cc(99)] Binding error response: class=4 number=1 reason=Unauthorized
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:51.042: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:51.904: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:52.084: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:52.774: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:53.074: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 14:37:53.329: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:03.518: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:05.526: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:05.691: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:05.796: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:05.901: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:06.531: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:06.666: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:06.787: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:07.431: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:07.836: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:07.896: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.091: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.226: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.376: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.526: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.661: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:03:08.781: gdk_window_set_user_time called on non-toplevel
+
+Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:25.587: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:25.721: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:25.827: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.066: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.126: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.291: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.471: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.621: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.727: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.816: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.861: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 16:32:26.967: gdk_window_set_user_time called on non-toplevel
+
+[3092:3092:1120/163246.785046:ERROR:shared_image_manager.cc(189)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[3092:3092:1120/163246.785609:ERROR:shared_image_manager.cc(189)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[3092:3092:1120/163246.785768:ERROR:shared_image_manager.cc(189)] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+
+(google-chrome:3021): Gdk-WARNING **: 17:07:54.652: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:07:54.727: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:01.952: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:02.576: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:03.071: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:03.131: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:04.946: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:05.561: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:26:05.831: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:28:00.009: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:28:00.026: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:28:03.452: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:28:04.751: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:28:07.226: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:55:56.932: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:55:56.999: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:55:57.824: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:55:57.854: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:44.866: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:45.989: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.079: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.155: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.319: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.455: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.650: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.770: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:46.904: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.084: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.204: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.324: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.444: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.594: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.819: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:47.939: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:48.149: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:48.239: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:48.389: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:48.464: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:49.199: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:49.349: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:50.159: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:50.294: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:50.414: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:50.460: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 17:58:50.654: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 18:27:29.292: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 18:27:29.292: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 18:27:29.449: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:38:44.311: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:38:45.288: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:38:45.993: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:39:13.238: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:39:13.238: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:40:57.925: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:40:58.713: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:40:59.013: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:40:59.073: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:03.945: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:06.094: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:06.483: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:06.558: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:27.078: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:41:27.138: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:42:32.131: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:42:32.132: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:42:36.654: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:42:37.744: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:42:37.909: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:55:39.701: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:55:40.400: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:55:40.820: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:57:19.047: gdk_window_set_user_time called on non-toplevel
+
+
+(google-chrome:3021): Gdk-WARNING **: 20:57:19.145: gdk_window_set_user_time called on non-toplevel
+
