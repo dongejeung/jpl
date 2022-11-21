@@ -340,3 +340,34 @@ Error in cpuinfo: failed to parse processor information from /proc/cpuinfo
 
 (google-chrome:3021): Gdk-WARNING **: 20:57:19.145: gdk_window_set_user_time called on non-toplevel
 
+[3021:3021:1120/223138.775147:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.776888:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.785903:ERROR:network_service_instance_impl.cc(513)] Network service crashed, restarting service.
+[3021:3021:1120/223138.791546:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.793647:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.794885:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.796037:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.798063:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.799961:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.803837:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223138.805509:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223139.061412:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223139.069418:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223139.072950:ERROR:zygote_communication_linux.cc(275)] Failed to send GetTerminationStatus message to zygote
+[3021:3021:1120/223139.076691:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.085277:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.092100:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.093040:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.093569:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.094107:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.094650:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.095295:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.095738:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.097432:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.098044:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.098678:ERROR:gpu_process_host.cc(965)] GPU process launch failed: error_code=1002
+[3021:3021:1120/223139.098686:FATAL:gpu_data_manager_impl_private.cc(440)] GPU process isn't usable. Goodbye.
+[1120/223139.103391:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[1120/223139.104097:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[1120/223139.104127:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+기존 브라우저 세션에서 여는 중입니다.

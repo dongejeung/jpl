@@ -12,7 +12,7 @@ public class Exer2_8 {
 	public Exer2_8(String ownerName) {
 		this.owner = ownerName;
 	}
-	public static void main(String[] args)	{
+	public static void main(String[] args) throws Exception	{
 		Exer2_8 vehicle1 = new Exer2_8("DON");
 		vehicle1.speed = 15; vehicle1.directionDegree = 60;
 		Exer2_8 vehicle2 = new Exer2_8("Jung");
